@@ -1,5 +1,5 @@
 # Sampling-based Tube Following for Redundant Robotic Manipulators
-This repository contains python scripts to recreate the simulation result and figures of the research paper `Sampling-based Tube Following for Redundant Robotic Manipulators`.
+This repository contains python scripts to recreate the simulation results and figures of the research paper `Sampling-based Tube Following for Redundant Robotic Manipulators`.
 
 ## Requirements to run scripts
 
@@ -15,7 +15,7 @@ The path planning algorithms are written in a custom made software framework for
 (The gilab download icon, located on the right of the version description, looks like this:
 ![gitlab_download_icon](figure/gitlab_download_icon.png))
 
-In order the use the `ppr` package, you need to add the location of the path to your path. There is nice template code in the two scripts using the package (`utility.py` and `plot_figure_4.py`).
+In order the use the `ppr` package, you need to add the location to the path, which is done in the python scripts. There is nice template code in the two scripts using the package (`utility.py` and `plot_figure_4.py`).
 
 ```python
 from sys import path
@@ -23,9 +23,9 @@ path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
 ```
 
 Here you change the string `/home/jeroen/Documents/gitlab/planar_python_robotics` to where you put the unzipped folder.
-In the best version of the future, this will not be necessary anymore and you can just intall the package using `pip install ppr`. But where not there yet. Although the present is also pretty good, as the sun is shining outside when I'm typing this.
+(In the best version of the future, this will not be necessary anymore and you can just intall the package using `pip install ppr`. But where not there yet. Although the present is also pretty good, as the sun is shining outside when I'm typing this.)
 
 ## Running the scripts
 
-The scripts starting with `plot_` are for, you guessed it, plotting stuff. The default figures are already in the folder `figure/`. Other scripts run simulations and save the data in the folder `data`. One exception is the script `fixed_sampling.py`, which used the table template to generate `table_1.tex`. I made a figure showing how scripts and data files are related.
+The scripts starting with `plot_` are for, you guessed it, plotting stuff. The default figures are already in the folder `figure/`. Other scripts run simulations and save the data in the folder `data`. A special case is the script `fixed_sampling.py`, which used the table template to generate `table_1.tex`. I made a figure showing how scripts and data files are related.
 ![nice picture](figure/script_relation.png)
