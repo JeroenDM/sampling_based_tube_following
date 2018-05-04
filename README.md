@@ -12,6 +12,9 @@ The path planning algorithms are written in a custom made software framework for
 1) Download the repository [here](https://gitlab.mech.kuleuven.be/u0100037/planar_python_robotics/tags). For the results in the paper I used version `0.1.2`.
 2) Unzip the file somewhere you can remember. You need the path later on!
 
+(The gilab download icon, located on the right of the version description, looks like this:
+![gitlab_download_icon](figure/gitlab_download_icon.png))
+
 In order the use the `ppr` package, you need to add the location of the path to your path. There is nice template code in the two scripts using the package (`utility.py` and `plot_figure_4.py`).
 
 ```python
@@ -24,4 +27,5 @@ In the best version of the future, this will not be necessary anymore and you ca
 
 ## Running the scripts
 
-The scripts starting with `plot_` are for, you guessed it, plotting stuff. The default figures are already in the folder `figure/`. Other scripts run simulations and save the data in the folder `data`. One exception is the script `fixed_sampling.py`, which used the table template to generate `table_1.tex`. I made a nice picture explaing how to use the scripts.
+The scripts starting with `plot_` are for, you guessed it, plotting stuff. The default figures are already in the folder `figure/`. Other scripts run simulations and save the data in the folder `data`. One exception is the script `fixed_sampling.py`, which used the table template to generate `table_1.tex`. I made a figure showing how scripts and data files are related.
+![nice picture](figure/script_relation.png)
