@@ -1,0 +1,27 @@
+\begin{tabular}{l c c c c c c}
+\hline
+& \multicolumn{2}{c}{case 1} &
+  \multicolumn{2}{c}{case 2} &
+  \multicolumn{2}{c}{case 3} \\
+samples&
+  \multicolumn{2}{c}{$samples_1} &
+  \multicolumn{2}{c}{$samples_2} &
+  \multicolumn{2}{c}{$samples_3} \\
+\hline
+& time & cost & time & cost & time & cost \\
+grid   & $time_grid_1 & $cost_grid_1
+       & $time_grid_2 & $cost_grid_2
+       & $time_grid_3 & $cost_grid_3 \\
+random & $time_random_1 & $cost_random_1
+       & $time_random_2 & $cost_random_2
+       & $time_random_3 & $cost_random_3 \\
+Halton & $time_halton_1 & $cost_halton_1
+       & $time_halton_2 & $cost_halton_2
+       & $time_halton_3 & $cost_halton_3 \\
+\hline
+Success rate random &
+  \multicolumn{2}{c}{$sr_random_1} &
+  \multicolumn{2}{c}{$sr_random_2} &
+  \multicolumn{2}{c}{$sr_random_3} \\
+\hline
+\end{tabular}
