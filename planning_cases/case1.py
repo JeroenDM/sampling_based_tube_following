@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from sys import path
-path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
-
 import numpy as np
 from ppr.robot import Robot_2P3R
 from ppr.path import TrajectoryPt, TolerancedNumber

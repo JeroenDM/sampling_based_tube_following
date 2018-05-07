@@ -6,9 +6,6 @@ Experiment 2 from paper
 along Given End-Effector Paths'
 Giuseppe Oriolo, Mauro Ottavi, Marilena Vendittelli
 """
-from sys import path
-path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
-
 import numpy as np
 from ppr.robot import RobotManyDofs
 from ppr.path import TrajectoryPt, TolerancedNumber

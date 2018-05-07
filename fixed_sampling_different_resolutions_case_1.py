@@ -84,4 +84,4 @@ print(results)
 #%%============================================================================
 # Save results
 #==============================================================================
-np.save('data/different_resolutions_case_1.npy', results)
+#np.save('data/different_resolutions_case_1.npy', results)

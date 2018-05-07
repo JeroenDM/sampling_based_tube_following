@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from sys import path
-path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Wedge

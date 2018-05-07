@@ -7,9 +7,6 @@ For use of the ppr package:
  https://gitlab.mech.kuleuven.be/u0100037/planar_python_robotics
  using the branch "May_3th_2018_backup_point"
 """
-from sys import path
-path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
-
 import time
 import numpy as np
 
