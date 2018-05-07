@@ -7,7 +7,7 @@ This repository contains python scripts to recreate the simulation results and f
 The scripts are testen using Python 3.6. The easiest way to get all the required libraries is installing the [Anaconda distribution](https://www.anaconda.com/download) for Python 3. The only non-standard libraries, appart from `ppr` discussed below, are [NumPy](http://www.numpy.org/) and [Matplotlib](https://matplotlib.org/) which are included in Anaconda.
 
 ### Planar Python Robotics (ppr)
-The path planning algorithms are written in a custom made software framework for planar robotics. I added the package in this repository to avoid installation issues. I tested it on Ubuntu 16.04. It's not working on Windows 10 for the moment, but I'm working on it. The version included here is the one used when writing the research paper. To use the latest version, checkout the [last section](##using-the-latest-version-of-ppr) on this page.
+The path planning algorithms are written in a custom made software framework for planar robotics. I added the package in this repository to avoid installation issues. I tested it on Ubuntu 16.04. It's not working on Windows 10 for the moment, but I'm working on it. The version included here is the one used when writing the research paper. To use the latest version, checkout the [last section](#using-the-latest-version-of-ppr) on this page.
 
 ## Running the scripts
 
