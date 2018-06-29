@@ -16,7 +16,25 @@ The scripts starting with `plot_` are for, you guessed it, plotting stuff. The d
 
 ## Using the latest version of ppr
 
-I'm trying to setup the package on [PyPi](https://pypi.org/project/ppr/) but I'm having some diffuculties with the C++ code for the moment. The good news is that you can just download the repository and use the package without bothering to install anything.
+I have not managed to get it working on Windows or MacOS. However, I have a much greater appreciation for cross platorm software after trying to get this working on other platforms. But for linux (tested on Ubuntu 16.04) you can do the following.
+
+### Version 0.2.1 or newer
+I've put the package on [PyPi](https://pypi.org/project/ppr/) wich should work on linux, given that you install swig to build the package. (The PyPi version started working from version 0.2.1.)
+
+```bash
+sudo apt install swig
+pip install ppr
+```
+
+Or download / clone the git repo and then, in this directory you can do:
+
+```bash
+sudo apt install swig
+python setup.py build
+python setup.py install
+```
+
+### Version 0.1.2 or older
 
 1) Download the repository [here](https://gitlab.mech.kuleuven.be/u0100037/planar_python_robotics/tags). For the results in the paper I used version `0.1.2`.
 2) Unzip the file somewhere you can remember. You need the path later on!
@@ -32,4 +50,3 @@ path.append(r"/home/jeroen/Documents/gitlab/planar_python_robotics")
 ```
 
 Here you change the string `/home/jeroen/Documents/gitlab/planar_python_robotics` to where you put the unzipped folder.
-(In the best version of the future, this will not be necessary anymore and you can just intall the package using `pip install ppr`. But where not there yet. Although the present is also pretty good, as the sun is shining outside when I'm typing this.)
