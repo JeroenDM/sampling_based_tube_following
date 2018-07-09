@@ -92,7 +92,7 @@ ax2.set_title('Reduced tolerances', fontsize=18)
 ax2.set_xlabel('x-position', fontsize=14)
 ax2.set_ylabel('y-position', fontsize=14)
 
-fig.savefig('figure/figure4.png')
+fig.savefig('figure/figure3.png')
 
 fig.tight_layout()
 plt.show()
